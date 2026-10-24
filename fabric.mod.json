@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fastplace",
+  "version": "1.0.0",
+  "name": "FastPlace",
+  "description": "Removes the item use delay.",
+  "authors": [
+    "Kazet"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.kazet.fastplace.FastPlace"
+    ]
+  },
+  "mixins": [
+    "fastplace.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
